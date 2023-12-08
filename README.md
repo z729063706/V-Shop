@@ -1,37 +1,30 @@
-# V-Shop  #
-Vue构建的小商店管理系统Web APP
+# v-shop
 
-### [项目线上预览地址](https://huanghaibin91.github.io/V-Shop-Preview/#/) ###
+> A Vue.js project
 
-在项目中主要使用：
+## Build Setup
 
-- vue-cli 构建项目
-- iview 实现UI组件样式
-- IndexedDB 实现数据存储
+``` bash
+# install dependencies
+npm install
 
-其实早前我写过一个同样功能的[https://github.com/huanghaibin91/Checkout-counter](https://github.com/huanghaibin91/Checkout-counter "这是链接")，样式啥的都是自己写的，不怎么好看，有的功能也没有完成。最开始想修修补补，后来看算了，就重新写了一个，为了统一样式和学点新东西，就使用了iview库统一UI，使用IndexedDB实现数据的存储读取，不过IndexedDB这种浏览器端的数据库有个最大的问题就是不安全，一打开控制台就什么都暴露了，所以不要在IndexedDB中存储私密信息。使用highChart完成简单的图表绘制。
+# serve with hot reload at localhost:8080
+npm run dev
 
-# 项目构成 #
+# build for production with minification
+npm run build
 
-- 登录界面
-- 商品列表
-- 商品操作
-- 收银记录
-- 消息通知
-- 数据统计
-- 人员管理
-- 待办事项
+# build for production and view the bundle analyzer report
+npm run build --report
 
-# 项目部分截图 #
+# run unit tests
+npm run unit
 
-![](./images/login.png)
+# run e2e tests
+npm run e2e
 
-![](./images/data.png)
+# run all tests
+npm test
+```
 
-![](./images/goodslist.png)
-
-![](./images/goodsstorage.png)
-
-![](./images/cash.png)
-
-![](./images/shoppingcart.png)
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
